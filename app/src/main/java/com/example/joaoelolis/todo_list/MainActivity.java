@@ -46,17 +46,12 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(intent);
 
-
-
-
                 /*Toast toast = Toast.makeText(getApplicationContext(),
                         tarefas.get(position).getNome(),
                         Toast.LENGTH_SHORT);
                 toast.show();*/
             }
         });
-
-
     }
 
     public void criarTarefas(){
@@ -74,7 +69,5 @@ public class MainActivity extends AppCompatActivity {
 
         tarefas.add(new Tarefa("5","Jogar PUBG",
                 "Jogar até vencer 3",false));
-
     }
-
 }
