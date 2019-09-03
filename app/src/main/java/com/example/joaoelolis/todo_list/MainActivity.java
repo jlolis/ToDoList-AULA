@@ -38,10 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(MainActivity.this,
                         TarefaActivity.class);
+                
                 intent.putExtra("TITULO",tarefas.get(position).getNome());
-
-                Intent intent1 = new Intent(MainActivity.this,
-                        TarefaActivity.class);
                 intent.putExtra("DESCRICAO",tarefas.get(position).getDescricao());
 
                 startActivity(intent);
